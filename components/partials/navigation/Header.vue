@@ -8,8 +8,8 @@
         <client-only>
           <img
             class="w-32 h-32 object-cover"
-            :src="images.logo"
-            :alt="title"
+            src="https://res.cloudinary.com/thm/image/upload/v1665320146/lc/olo_mfc6f0.png"
+            alt="Lucky & Chucky"
           >
           <div class="text-grey-800 text-12 font-extrabold uppercase">
             {{ title }}
@@ -29,6 +29,8 @@
               text-grey-600
               typo-ui-m
               bg-primary
+              background:#0e6157
+              background-color:#0e6157
               bg-opacity-0
               rounded-5
               transition-default
