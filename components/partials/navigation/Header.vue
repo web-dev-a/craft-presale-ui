@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 py-10 bg-white">
+  <header class="sticky top-0 py-10" style="background-color:#0e6157">
     <Container class="grid gap-20 grid-flow-col items-center justify-between">
       <nuxt-link
         to="/"
@@ -28,8 +28,7 @@
               py-2
               text-grey-600
               typo-ui-m
-              background:#0e6157
-              background-color:#0e6157
+              bg-primary
               bg-opacity-0
               rounded-5
               transition-default
