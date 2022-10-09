@@ -1,4 +1,4 @@
-<template>
+<template style="background-color:#13344d">
   <div class="grid gap-32 place-content-center place-items-center">
     <div class="grid gap-40 m:grid-flow-col">
       <div class="grid gap-20 content-between self-center">
