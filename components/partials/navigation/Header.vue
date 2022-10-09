@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 py-10" style="background-color:#0e6157">
+  <header class="sticky top-0 py-10" style="background-color:#13344d">
     <Container class="grid gap-20 grid-flow-col items-center justify-between">
       <nuxt-link
         to="/"
