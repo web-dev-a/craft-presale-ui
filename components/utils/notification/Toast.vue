@@ -228,7 +228,7 @@ onMounted(() => {
     display: v-bind(displayTimer);
     width: 100%;
     height: 4px;
-    background: currentColor;
+    background: #13344d;
     transform: scaleX(v-bind(deltaTimeout));
     transform-origin: left;
     content: "";
