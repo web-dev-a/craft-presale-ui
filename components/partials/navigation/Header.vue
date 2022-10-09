@@ -226,7 +226,7 @@ const externalLinks = ref<ExternalLink[]>([
   { name: 'Marketplace', url: `https://craft.network/collection/${scoreAddress}` },
 ])
 const socialLinks = ref<SocialLink[]>([
-  { icon: 'Logo/Discord', url: '', color: '#667CD3' },
+  { icon: 'Logo/Discord', url: 'https://discord.gg/nQz7TxWR4W', color: '#667CD3' },
   { icon: 'Logo/Twitter', url: 'https://twitter.com/olo_pics', color: '#6FC4FE' },
 ])
 </script>
