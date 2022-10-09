@@ -28,7 +28,6 @@
               py-2
               text-grey-600
               typo-ui-m
-              bg-primary
               background:#0e6157
               background-color:#0e6157
               bg-opacity-0
