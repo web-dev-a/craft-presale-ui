@@ -227,7 +227,6 @@ const externalLinks = ref<ExternalLink[]>([
 ])
 const socialLinks = ref<SocialLink[]>([
   { icon: 'Logo/Discord', url: '', color: '#667CD3' },
-  { icon: 'Logo/Twitter', url: '', color: '#6FC4FE' },
-  { icon: 'Logo/Telegram', url: '', color: '#00C0F1' },
+  { icon: 'Logo/Twitter', url: 'https://twitter.com/olo_pics', color: '#6FC4FE' },
 ])
 </script>

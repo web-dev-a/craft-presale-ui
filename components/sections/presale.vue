@@ -1,4 +1,4 @@
-<template style="background-color:#13344d">
+<template>
   <div class="grid gap-32 place-content-center place-items-center">
     <div class="grid gap-40 m:grid-flow-col">
       <div class="grid gap-20 content-between self-center">
@@ -73,7 +73,7 @@
       </div>
       <div class="w-288 xxs:w-320 l:w-384 h-288 xxs:h-320 l:h-384">
         <client-only>
-          <img src="https://res.cloudinary.com/thm/image/upload/v1665321337/lc/lucky-chucky_kkuqdv.gif"
+          <img src="https://res.cloudinary.com/thm/image/upload/w_200,h_200,c_fill,r_max/v1665319290/lc/QmSQvCdpGY6s3LXbhFKgNpt5UtXxsbZVD6XXEayVvYx7UU_q0ljxu.gif"
             alt="Unrevealed"
             class="w-full h-full object-cover"
           >
