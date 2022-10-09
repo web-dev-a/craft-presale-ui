@@ -3,9 +3,11 @@
       <div class="grid gap-40 m:grid-flow-col">
       <div class="grid gap-20 content-between self-center">
               <div class="grid">
-
+<client-only> 
   Lucky & Chucky are the characters of collection which contains 10 000 fabulous avatars inspired by childhood, hand drawn in pretty pastels and adorned with cute detailing. Super cute and child safe artworks breath new life into the rude and weird world of NFTs. These friends are sure to be a hit and make a lovely addition to any NFT collection. Artworks were created using 100% renewable energy.
+</client-only> 
     </div></div></div>
+
     <div class="grid gap-40 m:grid-flow-col">
       <div class="grid gap-20 content-between self-center">
         <div class="grid">
