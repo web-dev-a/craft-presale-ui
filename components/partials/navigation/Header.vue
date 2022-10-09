@@ -2,7 +2,7 @@
   <header class="sticky top-0 py-10" style="background-color:#fff">
     <Container class="grid gap-20 grid-flow-col items-center justify-between">
       <nuxt-link
-        to="/"
+        to="https://olo.pics"
         class="grid gap-10 grid-flow-col items-center justify-self-start"
       >
         <client-only>
@@ -12,7 +12,7 @@
             alt="Lucky & Chucky"
           >
           <div class="text-grey-800 text-12 font-extrabold uppercase">
-            {{ title }}
+            {{ title }} by OLO pics
           </div>
         </client-only>
       </nuxt-link>
