@@ -12,7 +12,7 @@
             alt="Lucky & Chucky"
           >
           <div class="text-grey-800 text-12 font-extrabold uppercase">
-            {{ title }} by OLO pics
+            OLO pics
           </div>
         </client-only>
       </nuxt-link>

@@ -48,7 +48,7 @@
             Public sale
           </h1>
           <p class="text-grey-900 typo-body">
-            Mint <span class="typo-body-bold">a NFT from {{ collection }}</span> and earn <a
+            Mint <span class="typo-body-bold">a NFT</span> and earn <a
               href="https://craft.network/cft"
               target="blank"
               class="text-craft"
