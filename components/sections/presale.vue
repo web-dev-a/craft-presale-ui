@@ -1,8 +1,8 @@
 <template>
-  <div class="grid gap-32 place-content-center place-items-center justify-center">
-      <div class="grid gap-40 m:grid-flow-col justify-center">
-      <div class="grid gap-20 content-between self-center justify-center">
-              <div class="grid flex justify-center">
+  <div class="grid gap-32 place-content-center place-items-center">
+      <div class="grid gap-40 m:grid-flow-col">
+      <div class="grid gap-20 content-between self-center">
+              <div class="grid">
               <div class="flex justify-center">
               <div> 
               <h1 class="mt-12 mb-4 text-grey-900 typo-h1">
@@ -44,9 +44,9 @@
               </span>
             </div>
           </client-only>
-          <h1 class="mt-12 mb-4 text-grey-900 typo-h1">
+          <h2 class="mt-12 mb-4 text-grey-900 typo-h1">
             Public sale
-          </h1>
+          </h2>
           <p class="text-grey-900 typo-body">
             Mint <span class="typo-body-bold">a NFT</span> and earn <a
               href="https://craft.network/cft"
