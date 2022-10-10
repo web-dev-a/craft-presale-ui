@@ -2,7 +2,7 @@
   <div class="grid gap-32 place-content-center place-items-center">
       <div class="grid gap-40 m:grid-flow-col">
       <div class="grid gap-20 content-between self-center">
-              <div class="grid">
+              <div class="grid flex items-center">
 <client-only> 
           <h1 class="mt-12 mb-4 text-grey-900 typo-h1">
 Lucky & Chucky </h1>
