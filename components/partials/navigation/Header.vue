@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 py-10" style="background-color:#fff">
+  <header class="sticky top-0 py-10" style="background-color:#FFF">
     <Container class="grid gap-20 grid-flow-col items-center justify-between">
       <nuxt-link
         to="https://olo.pics"
@@ -8,8 +8,8 @@
         <client-only>
           <img
             class="w-32 h-32 object-cover"
-            src="https://res.cloudinary.com/thm/image/upload/v1665320146/lc/olo_mfc6f0.png"
-            alt="Lucky & Chucky"
+            src="https://res.cloudinary.com/thm/image/upload/v1665384164/lc/olo_twykct.png"
+            alt="OLO pics studio"
           >
           <div class="text-grey-800 text-12 font-extrabold uppercase">
             OLO pics
