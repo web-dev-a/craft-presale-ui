@@ -14,11 +14,11 @@
               <div class="flex justify-center">
               <div> 
 
-                                              <p>Inspired by childhood, hand drawn in pretty pastels and adorned with super cute detailing.</p>
+                <p>Inspired by childhood, hand drawn in pretty pastels and adorned with super cute detailing</p>
 
             </div>
               </div>
-              
+
 </div>
 </div>
 </div>
