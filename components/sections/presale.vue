@@ -7,12 +7,18 @@
               <div> 
               <h1 class="mt-12 mb-4 text-grey-900 typo-h1">
                   Lucky & Chucky </h1>
-                                <p>Inspired by childhood, hand drawn in pretty pastels and adorned with super cute detailing.
-              </p>
-
               </div>
               </div>
 
+
+              <div class="flex justify-center">
+              <div> 
+
+                                              <p>Inspired by childhood, hand drawn in pretty pastels and adorned with super cute detailing.</p>
+
+            </div>
+              </div>
+              
 </div>
 </div>
 </div>
