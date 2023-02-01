@@ -100,18 +100,6 @@
             alt="Unrevealed"
             class="w-full h-full object-cover"
           >
-          <template v-if="isLive && totalMintable">
-            <div class="relative mt-12 w-full h-4 bg-grey-200 text-center">
-              <div
-                class="absolute to-)0 bottom-0 left-0 h-full bg-primary"
-                :style="{ width: `${progress}%` }"
-              />
-            </div>
-          </template>
-          <div class="grid text-center">
-            <span class="font-furore text-24 text-primary">{{ remainingMintable }}</span>
-            <span class="typo-caption-s text-grey-400">remaining</span>
-          </div>
         </client-only>
       </div>
     </div>
