@@ -24,7 +24,7 @@
 </div>
 
     <div class="grid gap-40 m:grid-flow-col">
-      <div class="grid gap-20 content-between self-center">
+      <div class="grid gap-20 content-between self-center max-w-320">
         <div class="grid">
           <client-only>     
             <div
