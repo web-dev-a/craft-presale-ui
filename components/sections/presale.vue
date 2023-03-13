@@ -1,121 +1,61 @@
 <template>
-  <div class="grid gap-32 place-content-center place-items-center">
-      <div class="grid gap-40 m:grid-flow-col">
-      <div class="grid gap-20 content-between self-center">
-              <div class="grid">
-              <div class="flex justify-center">
-              <div> 
-              <h1 class="mt-12 mb-4 text-grey-900 typo-h1">
-                  Lucky & Chucky </h1>
-              </div>
-              </div>
-
-
-              <div class="flex justify-center">
-              <div> 
-
-                <p>Inspired by childhood, hand drawn in pretty pastels and adorned with super cute detailing</p>
-
-            </div>
-              </div>
-
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 text-center mb-5">
+<h2 class="heading-section">Lucky &amp; Chucky</h2>
 </div>
 </div>
-</div>
+<div class="row justify-content-center">
+<div class="col-md-6 col-lg-4">
+<div class="login-wrap p-0">
+<h3 class="mb-4 text-center">{{ remainingMintable }} remaining</h3>
 
-    <div class="grid gap-40 m:grid-flow-col">
-      <div class="grid gap-20 content-between self-center max-w-320">
-        <div class="grid">
-          <client-only>     
-            <div
-              class="grid gap-6 grid-flow-col items-center justify-start"
-              :class="isLive === null
-                ? 'text-primary'
-                : {
-                  'text-success': isLive,
-                  'text-error': !isLive,
-                }
-              "
-            >
-              <UtilsIcon
-                name="Dot"
-                class="w-12 h-12"
-              />
-              <span class="uppercase typo-capital">
-                Public sale is {{ isLive ? 'live' : 'closed' }}
-              </span>
-            </div>
-            <div
-              v-if="isWhitelistEnabled"
-              class="grid mt-12 gap-6 grid-flow-col items-center justify-start text-primary"
-            >
-              <span class="uppercase typo-capital">
-                Whitelist is enabled and your are <span :class="isWhitelisted ? '' : 'text-error'">{{ isWhitelisted ? 'whitelisted' : 'not whitelisted' }}</span>
-              </span>
-            </div>
-          </client-only>
-          <h2 class="mt-12 mb-4 text-grey-900 typo-h1">
-            Public sale
-          </h2>
-          <p class="text-grey-900 typo-body">
-            Mint <span class="typo-body-bold">a NFT</span> and earn <a
-              href="https://craft.network/cft"
-              target="blank"
-              class="text-craft"
-            >$CFT tokens</a>
-          </p>
-        </div>
-        <div class="grid gap-12">
-          <ControlsFormInput
+<div class="form-group">
+<input
+            type="number"
+            class="form-control"
+            style="font-size: 1.75rem; text-align: center;"
             v-model="v$.mintNumber.$model"
             :errors="v$.mintNumber.$errors"
-            type="number"
             :min="0"
             :max="remainingMintable"
             placeholder="Amount"
           />
-          <div class="grid gap-12 grid-flow-col justify-between items-center">
-            <span class="text-left text-primary typo-caption-semibold">Total</span>
-            <div class="grid gap-4 grid-flow-col items-center">
-              <UtilsIcon
-                name="Logo/Icon"
-                class="w-12 h-12 text-[#00AC97]"
-              />
-              <span class="text-right text-grey-400 typo-caption-semibold">{{ formStates.mintNumber * price }}</span>
-            </div>
-          </div>
-        </div>
+</div>
+<div class="form-group">
         <ControlsButtonAction
           type="submit"
-          size="lg"
+          class="form-control btn btn-primary submit px-3"
           :is-locked="!isLive || (isWhitelistEnabled && !isWhitelisted)"
           @click="presaleMintOnClick"
         >
           Mint
         </ControlsButtonAction>
-      </div>
-      <div class="w-288 xxs:w-320 l:w-384 h-288 xxs:h-320 l:h-384">
-        <client-only>
-          <img src="https://res.cloudinary.com/thm/image/upload/w_200,h_200,c_fill,r_max/v1665319290/lc/QmSQvCdpGY6s3LXbhFKgNpt5UtXxsbZVD6XXEayVvYx7UU_q0ljxu.gif"
-            alt="Unrevealed"
-            class="w-full h-full object-cover"
-          >
-          <template v-if="isLive && totalMintable">
-            <div class="relative mt-12 w-full h-4 bg-grey-200 text-center">
-              <div
-                class="absolute to-)0 bottom-0 left-0 h-full bg-primary"
-                :style="{ width: `${progress}%` }"
-              />
-            </div>
-          </template>
-          <div class="grid text-center">
-            <span class="font-furore text-24 text-primary">{{ remainingMintable }}</span>
-            <span class="typo-caption-s text-grey-400">remaining</span>
-          </div>
-        </client-only>
-      </div>
-    </div>
-  </div>
+</div>
+<div class="form-group d-md-flex">
+<div class="w-50">
+<label>
+</label>
+</div>
+<div class="w-50 text-md-right">Total
+
+              <UtilsIcon
+                name="Logo/Icon"
+                class="w-12 h-12 text-[#00AC97]"
+              /> {{ formStates.mintNumber * price }} </div>
+</div>
+
+<p class="w-100 text-center">&mdash; Reach us &mdash;</p>
+<div class="social d-flex text-center">
+<a href="https://discord.com/invite/nQz7TxWR4W" class="px-2 py-2 mr-md-1 rounded"><span class="mr-2"></span>Discord</a>
+<a href="https://twitter.com/olo_pics" class="px-2 py-2 ml-md-1 rounded"><span class="mr-2"></span>Twitter</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 </template>
 
 <script setup lang="ts">
