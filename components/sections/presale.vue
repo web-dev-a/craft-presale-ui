@@ -47,9 +47,9 @@
 </div>
 
 <p class="w-100 text-center">&mdash; Reach us &mdash;</p>
-<div class="social d-flex text-center">
-<a href="https://discord.com/invite/nQz7TxWR4W" class="px-2 py-2 mr-md-1 rounded"><span class="mr-2"></span>Discord</a>
-<a href="https://twitter.com/olo_pics" class="px-2 py-2 ml-md-1 rounded"><span class="mr-2"></span>Twitter</a>
+<div class="row justify-content-center">
+<a href="https://discord.com/invite/nQz7TxWR4W"><img src="/discord-icon.png" alt="Discord" width="50" height="50" style="margin: 15px;"></a>
+<a href="https://twitter.com/olo_pics"><img src="/twitter-icon.png" alt="Twitter" width="50" height="50" style="margin: 15px;"></a>
 </div>
 </div>
 </div>
