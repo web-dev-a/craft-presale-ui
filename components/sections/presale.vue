@@ -3,7 +3,7 @@
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-md-6 text-center mb-5">
-<h2 class="heading-section">Lucky &amp; Chucky</h2>
+<h2 class="heading-section">Boxicon</h2>
 </div>
 </div>
 <div class="row justify-content-center">
@@ -111,7 +111,7 @@ const checkPresale = async (): Promise<void> => {
     isLive.value = await SCORECallReadOnly('presaleOpened') !== '0x0'
 
     if (isLive.value) {
-      totalMintable.value = 10000
+      totalMintable.value = 5000
       remainingMintable.value = totalMintable.value - parseInt(await SCORECallReadOnly('presaleId'), 16)
       progress.value = (remainingMintable.value / totalMintable.value) * 100
       price.value = parseInt(await SCORECallReadOnly('presalePrice'), 16) / (10 ** 18)
