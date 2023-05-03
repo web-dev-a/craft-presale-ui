@@ -24,7 +24,7 @@ export const useScoreService = () => {
     ? 'https://lisbon.net.solidwallet.io/'
     : 'https://ctz.solidwallet.io/'
 
-  const nid: number = isTestnet ? 83 : 1
+  const nid: number = isTestnet ? 2 : 1
 
   const service = new IconService(new IconService.HttpProvider(`${url}api/v3`))
 
