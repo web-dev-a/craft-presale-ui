@@ -22,7 +22,7 @@ export const useScoreService = () => {
   const isTestnet: boolean = iconNetwork === 'testnet'
   const url: string = isTestnet
     ? 'https://sejong.net.solidwallet.io/'
-    : 'https://ctz.solidwallet.io/'
+    : 'https://lisbon.net.solidwallet.io/'
 
   const nid: number = isTestnet ? 83 : 1
 
@@ -74,7 +74,7 @@ export const useScoreService = () => {
     from:string, method:string, score:string, params?: unknown, value?: number,
   ): Promise<string | object> => {
     try {
-      const debug = (iconNetwork === 'testnet') ? 'https://sejong.net.solidwallet.io/api/v3d' : 'https://ctz.solidwallet.io/api/debug/v3'
+      const debug = (iconNetwork === 'testnet') ? 'https://sejong.net.solidwallet.io/api/v3d' : 'https://lisbon.net.solidwallet.io/api/debug/v3'
       const stepLimit = (await axios.post(debug, {
         id: 1234,
         jsonrpc: '2.0',
