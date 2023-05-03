@@ -9,8 +9,8 @@ import TransportWebUsb from '@ledgerhq/hw-transport-webusb'
 
 const { iconNetwork } = useRuntimeConfig()
 const isTestnet = iconNetwork === 'testnet'
-const url = isTestnet ? 'https://sejong.net.solidwallet.io/' : 'https://lisbon.net.solidwallet.io/'
-const nid = isTestnet ? '53' : '1'
+const url = isTestnet ? 'https://lisbon.net.solidwallet.io/' : 'https://ctz.solidwallet.io/'
+const nid = isTestnet ? '0x2' : '1'
 
 type SignatureKey = string | SignatureKey[]
 
