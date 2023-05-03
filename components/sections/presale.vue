@@ -112,7 +112,7 @@ const checkPresale = async (): Promise<void> => {
 
     if (isLive.value) {
       totalMintable.value = 5000
-      remainingMintable.value = totalMintable.value - parseInt(await SCORECallReadOnly('presaleId'), 16)
+      remainingMintable.value = totalMintable.value - parseInt(await SCORECallReadOnly('mintId'), 16)
       progress.value = (remainingMintable.value / totalMintable.value) * 100
       price.value = parseInt(await SCORECallReadOnly('presalePrice'), 16) / (10 ** 18)
       mintLimit.value = parseInt(await SCORECallReadOnly('mintLimit'), 16)
